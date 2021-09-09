@@ -1,0 +1,64 @@
+h2{
+    text-align: center;
+    color: #ffffff;
+
+}
+h1{
+    border-bottom: 3px solid #0C438B;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-color: #d9d9d9;
+}
+th{
+    
+    padding: 20px;
+}
+div.gallery{
+    float: left;
+    padding: 10px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    border: 3px solid #0C438B;
+    width: 280px;
+    color: #0C438B;
+}
+div.gallery img{
+    width: 100%;
+}
+div.desc{
+    text-align: center;
+    padding: 10px;
+}
+.logo{
+    margin-left: 450px;
+    
+}
+img{
+    width: 300px;
+    height: 0 auto;
+}
+marquee{
+    position: relative;
+    background-color: #0C438B;
+    opacity: 0.8;
+}
+.button{
+    border-radius: 12px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #0C438B;
+    border: 2px solid #d9d9d9;
+}
+.button:hover{
+    background-color: #0C438B;
+    color: #ffffff;
+}
